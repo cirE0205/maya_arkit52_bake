@@ -3,11 +3,14 @@
 
 
 Prereqs (before Maya)
+
 https://github.com/user-attachments/assets/e7bd42b2-6d4c-4df0-892d-4bcf44d4545e
+
 In UE5.6, bake the MetaHuman face Animation Sequence to the Face Control Rig (Face_ControlBoard_CtrlRig).
 Export an FBX Animation (skeletal) OR just use the Control Rig keys via MetaHuman for Maya.
 
 https://github.com/user-attachments/assets/a1403195-db1e-4a28-948a-5536a6316f74
+
 In Maya, assemble the same MetaHuman via MetaHuman for Maya (DNA paths valid). Timeline at 24 fps. Frames: neutral at 0, ARKit poses on 1–51 (we omit mouthClose; tongueOut is at 52 in our default).
 
 Install/load the tool (Maya Python tab)
